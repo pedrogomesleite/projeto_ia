@@ -21,4 +21,4 @@ if __name__ == "__main__":
     dados_tratados = carregar_json(caminho)
 
     for i, item in enumerate(dados_tratados):
-        print(f"{i+1}. Área: {item['area']} | Enunciado:\n {item['enunciado']} \n ")
+        print(item)
