@@ -4,3 +4,5 @@ scikit-fuzzy
 pandas
 python-docx
 reportlab
+werkzeug
+flask

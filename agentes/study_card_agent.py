@@ -143,7 +143,7 @@ if __name__ == '__main__':
         simulate_user_attempts()
     
         # 3. Rodar o agente fuzzy se as questões não estiverem classificadas
-        import fuzzy_agent
+        import agentes.fuzzy_agent as fuzzy_agent
         fuzzy_classifier = fuzzy_agent.DifficultyClassifierAgent()
         fuzzy_classifier.run_classification()
         print("Classificação Fuzzy de teste concluída.")
